@@ -1,0 +1,20 @@
+.tourdate{
+    /* display:flex; */
+}
+
+.tourdate__show{
+    display:flex;
+    padding:5px 30px;
+    align-items:center;
+}
+
+.tourdate__show *{
+    padding:0px 5px;
+}
+
+.tourdate__tickets{
+    background:crimson;
+    padding:5px 10px;
+    margin-left:20px;
+    color:white;
+}

@@ -1,0 +1,87 @@
+.form{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:80vh;
+    background:white;
+    color:black;
+}
+
+.form__heading{
+    padding:10px;
+}
+
+.form__heading > h1{
+    letter-spacing: 5px;
+    font-weight:500;
+    margin-bottom:10px;
+}
+
+.form__heading > p{
+    color:gray;
+    font-style:italic;
+    font-size:18px;
+}
+.form__main{
+    display:flex;
+    justify-content:space-around;
+    margin:0px 50px;
+}
+
+.form__info{
+    display:flex;
+    flex-direction:column;
+}
+
+.form__row{
+    display:flex;
+    padding:5px;
+    align-items:center;
+}
+
+.form__row > :nth-child(1){
+    margin-right:20px;
+}
+
+.form__row > *{
+    font-size:20px;
+    font-weight:500;
+}
+
+.form__input{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    height:145px;
+}
+
+.form__inputGroup{
+    width:400px;
+}
+
+.form__inputGroup > input{
+    padding:10px;
+    width:40%;
+    margin:5px;
+}
+
+input::placeholder{
+    font-size:18px;
+}
+.form__inputMessage > input{
+    padding:10px;
+    width:88%;
+}
+
+.form__input > button{
+    margin:5px;
+    padding:10px;
+    width:100px;
+    background:black;
+    color:white;
+    position:absolute;
+    bottom:0px;
+    right:8px;
+    cursor:pointer;   
+    font-size:16px;
+}
